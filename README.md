@@ -14,21 +14,21 @@ To reduce training time without sacrificing accuracy, we will train a CNN using 
 We mention that the task of assigning breed to dogs from images is considered exceptionally challenging.  To see why, consider that *even a human* would have great difficulty in distinguishing between a Brittany and a Welsh Springer Spaniel.
 
 |Brittany | Welsh Springer Spaniel|
-|- | -|
-|![](images/Brittany_02625.jpg) | ![](images/Welsh_springer_spaniel_08203.jpg)|
+|-|-|
+|![](images/Brittany_02625.jpg) |![](images/Welsh_springer_spaniel_08203.jpg)|
 
 It is not difficult to find other dog breed pairs with minimal inter-class variation (for instance, Curly-Coated Retrievers and American Water Spaniels).
 
 |Curly-Coated Retriever | American Water Spaniel|
-|- | -|
-|![](images/Curly-coated_retriever_03896.jpg) | ![](images/American_water_spaniel_00648.jpg)|
+|-|-|
+|![](images/Curly-coated_retriever_03896.jpg) |![](images/American_water_spaniel_00648.jpg)|
 
 
 Likewise, recall that labradors come in yellow, chocolate, and black.  Your vision-based algorithm will have to conquer this high intra-class variation to determine how to classify all of these different shades as the same breed.
 
 |Yellow Labrador | Chocolate Labrador | Black Labrador|
-|- | -|
-|![](images/Labrador_retriever_06457.jpg) | ![](images/Labrador_retriever_06455.jpg) | ![](images/Labrador_retriever_06449.jpg)|
+|-|-|-|
+|![](images/Labrador_retriever_06457.jpg) |![](images/Labrador_retriever_06455.jpg) |![](images/Labrador_retriever_06449.jpg)|
 
 We also mention that random chance presents an exceptionally low bar: setting aside the fact that the classes are slightly imabalanced, a random guess will provide a correct answer roughly 1 in 133 times, which corresponds to an accuracy of less than 1%.
 
