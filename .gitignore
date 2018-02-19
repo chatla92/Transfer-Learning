@@ -1,0 +1,9 @@
+.DS_Store
+dogImages/
+lfw/
+saved_models/
+saved_models/
+.ipynb_checkpoints/
+bottleneck_features/
+LICENSE.txt
+CODEOWNERS
